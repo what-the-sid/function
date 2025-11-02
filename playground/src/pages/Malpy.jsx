@@ -9,7 +9,7 @@ export default function MalpyShowcase() {
   const [output, setOutput] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const API_URL = "http://localhost:8000"; // change to your domain later
+  const API_URL = "https://malpy-backend.onrender.com";
 
   const handleTranslateToPython = async () => {
     setLoading(true);
